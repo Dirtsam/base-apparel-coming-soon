@@ -184,9 +184,9 @@ form .btn {
   color: var(--primary-col-bold);
 }
 
-@media (min-width: 800px) {
+@media (min-width:900px) {
   .container {
-    width: min(100%, 1440px);
+    width: min(100%, 1441px);
     height: 100%;
     text-align: start;
   }
