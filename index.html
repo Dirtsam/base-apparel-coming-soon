@@ -49,9 +49,9 @@
           <p>Hello fellow shoppers! We're currently building our new fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.
           </p>
-          <form accept="/action_page.php" id="form" data-netlify="true">
+          <form action="POST" id="form" data-netlify="true">
             <div class="form-container">
-              <input type="email" placeholder="Email address" id="email">
+              <input type="email" name="email" placeholder="Email address" id="email">
               <img class="error-ico" src="./images/icon-error.svg" alt="">
               <small class="small">error message</small>
               <button class="btn" type="submit"><img src="./images/icon-arrow.svg" alt="icon-arrow"></button>
